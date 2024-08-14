@@ -5,7 +5,7 @@
     --second-color: #6A4A30;
     --third-color: #C3A98F;
     --txt-color: #131416;
-    --tittle-color: #efeee6;
+    --tittle-color: #f9f9f8;
   }
 * {
     margin: 0;
@@ -17,7 +17,7 @@
     color: #131416;
 }
 body{
-    background-color: var(--tittle-color);
+    background-color: #f9f9f8;
 }
 label{
     color: #131416;
