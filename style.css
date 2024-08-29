@@ -110,6 +110,17 @@ header{
     text-transform: uppercase;
     margin-top: 10px;
 }
+.conocenos{
+    font-weight: 500;
+    color: var(--tittle-color);
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.conocenos:hover{
+    transform: scale(1.1);
+}
 .ws-button {
     position: fixed;
     bottom: 30px;
@@ -185,6 +196,11 @@ seccion{
 .contenedor-tittle i{
     font-size: 1.5rem;
     color: var(--second-color);
+}
+
+.foto_nosotros img{
+    width: 300px;
+    border-radius: 100%;
 }
 .imagen img{
     width: 200px;
@@ -411,11 +427,6 @@ iframe{
     margin-top: 30px;
     background-color: var(--first-color);
 }
-.enlaces{
-    max-width: 800px;
-    display: flex;
-    align-items: center;
-}
 
 /*RESPONSIVE*/
 @media(max-width:768px){
@@ -534,6 +545,10 @@ iframe{
     .datos-ubicacion{
         margin-left: 0;
         margin-bottom: 10px;
+    }
+    .datos-ubicacion span,
+    .datos-ubicacion i{
+        font-size: 15px;
     }
     .mapa {
         max-width: 300px;
